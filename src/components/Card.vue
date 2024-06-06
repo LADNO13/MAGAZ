@@ -17,7 +17,7 @@ const showFavoriteButton = Boolean(props.onClickAdd);
 
 <template>
   <div
-    class="relative bg-white border border-slate-150 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl"
+    class="relative bg-white border-2 border-slate-200 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-2xl"
   >
     <img
       v-if="onClickFavorite"

@@ -137,10 +137,10 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="flex justify-between items-center">
+  <div class="flex flex-col justify-between items-center bb:flex-row">
     <h2 class="text-3xl font-bold mb-8">Все кроссовки</h2>
 
-    <div class="flex gap-4">
+    <div class="flex flex-col gap-4 mb-8 bb:flex-row">
       <select
         @change="onChangeSelect"
         class="py-2 px-3 border rounded-md outline-none"

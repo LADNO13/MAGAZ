@@ -9,8 +9,8 @@ const { closeDrawer } = inject("cart");
     <svg
       @click="() => closeDrawer()"
       class="opacity-30 cursor-pointer rotate-180 hover:opacity-100 transition hover:-translate-x-1"
-      width="16"
-      height="14"
+      width="25"
+      height="18"
       viewBox="0 0 16 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
